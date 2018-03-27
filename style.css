@@ -1,0 +1,101 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  /* flex box syntax */
+width: 100%;
+background-color: #999;
+}
+.left{
+  width: 30%;
+  background-color: #c45e45;
+  border: 5px solid #000;
+  margin: 5px;
+}
+.right{
+  width: 70%;
+  background-color: #666;
+  border: 5px solid #000;
+  margin: 5px;
+  padding: 6px;
+}
+#name{
+  color: blue;
+}
+.left img{
+  border-radius: 50px;
+  border: 5px solid #c454;
+}
+/* media queries (1024,1280,768,480)
+1280-1024 : desktop
+ 1024-768 : tablet(landscape)
+ 768-480 : tablet(portrait)
+480 : mobile landscape (or) smaller device
+*/
+@media only screen and (min-width:1024px) and (max-width:1280px)
+ {
+.main{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+.left{
+  width:25%;
+  background-color: pink;
+}
+.right{
+  width:70%;
+  background-color: purple;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+  .main{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .left{
+    width:25%;
+    background-color: skyblue;
+  }
+  .right{
+    width:70%;
+    background-color: pink;
+  }
+
+
+}
+@media only screen and (min-width:480px) and (max-width:768px)
+{
+  .main{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .left{
+    width:25%;
+    background-color: pink;
+  }
+  .right{
+    width:70%;
+    background-color: skyblue;
+  }
+
+}
+@media only screen and (max-width:480px)
+{
+  .main{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .left{
+    width:25%;
+    background-color: #985;
+  }
+  .right{
+    width:70%;
+    background-color: #5436;
+  }
+
+}
