@@ -1,0 +1,36 @@
+{
+  "left":{
+    "photo":"jyo.png",
+    "name":"N.JyothiReddy",
+    "email":"nukajyothi137@gmail.com",
+    "phone":"9703631188"
+  },
+
+  "education":[{
+    "course":"btech(CSE)",
+        "college":["RECW","2015-2019","75%"]
+  },
+  {
+    "course":"inter(MPC)",
+        "college":["Narayana","2013-2015","97%"]
+  },
+{
+  "course":"SSC",
+      "college":["keshavareddy","2012-2013","97%"]
+}
+],
+"skills":[
+  {
+    "name":"operating systems",
+    "value":"windows,Linux"
+  },
+  {
+    "name":"programming languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"web development",
+    "value":"HTML,python"
+  }
+]
+}
